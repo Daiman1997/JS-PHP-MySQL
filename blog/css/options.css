@@ -1,0 +1,96 @@
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+.container__full {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 576px) {
+  .container__full {
+    max-width: 450px;
+  }
+}
+
+@font-face {
+  font-family: heading;
+  src: url('../fonts/Lobster-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: description regular;
+  src: url('../fonts/Caveat-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: description bold;
+  src: url('../fonts/Caveat-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: title regular;
+  src: url('../fonts/BalsamiqSans-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: title bold;
+  src: url('../fonts/BalsamiqSans-Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: title italic;
+  src: url('../fonts/BalsamiqSans-Italic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: title boldItalic;
+  src: url('../fonts/BalsamiqSans-BoldItalic.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.clearfix::after {
+  display: block;
+  clear: both;
+  content: "";
+}
